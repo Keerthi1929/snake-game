@@ -15,7 +15,7 @@ class Snake:
     # TODO - creteing the snake
     def create_snake(self):
         for position in STARTING_POSITIONS:
-            self.add_segments(position)
+            self.add_segment(position)
             
     def add_segment(self, position):
         new_segment = Turtle("square")
