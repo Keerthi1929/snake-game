@@ -9,6 +9,7 @@ class Scoreboard(Turtle):
         self.penup()
         self.goto(0,270)
         self.hideturtle()
+        self.update_scoreboard() # Add this line to display the initial score
         
     def update_scoreboard(self):
         self.write(f"Score:{self.score}",align = "center",font = FONT) 
