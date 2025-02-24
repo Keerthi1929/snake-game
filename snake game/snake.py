@@ -23,7 +23,7 @@ class Snake:
         new_segment.color("white")
         new_segment.penup()
         new_segment.goto(position)
-        new_segment.shapesize(stretch_wid= SEGMENT_SIZE, stretch_len= SEGMENT_SIZE)  # Adjust the size here
+        new_segment.shapesize(stretch_wid = SEGMENT_SIZE, stretch_len = SEGMENT_SIZE)  # Adjust the size here
         self.segments.append(new_segment)
 
     def reset(self):
